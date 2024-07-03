@@ -17,7 +17,7 @@ void MainWindow::on_subscriptButton_clicked() {
     ui->textEdit->mergeCurrentCharFormat(format);
 }
 
-//About Me Section
+//About Me Sections
 void MainWindow::on_aboutButton_clicked() {
     QMessageBox msgBox;
     msgBox.setText("Name\nResume Details\n...");
